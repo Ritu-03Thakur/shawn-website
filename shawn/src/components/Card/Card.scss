@@ -1,0 +1,46 @@
+.card{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .image{
+        width: 100%;
+        height: 400px ; 
+        overflow: hidden;
+        position: relative;
+     
+        &:hover{
+            .second{
+                z-index: 3;
+            }
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+
+        }
+        .first{
+            z-index: 2;
+        }
+    }
+h2{
+    font-style: 16px;
+    font-weight: 400;
+}
+.prices{
+display: flex;
+gap: 20px;
+
+h3{
+    font-size: 18px;
+    font-weight: 500;
+    &:first-child{
+        color: gray;
+        text-decoration: line-through;
+    }
+}
+}
+}

@@ -1,0 +1,35 @@
+.contact {
+  background-color: #ffe3da;
+  margin: 100px 200px 20px 200px;
+  padding: 20px;
+  color: #060605;
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+
+  .left {
+    flex: 1;
+    display: flex;
+    gap: 10px;
+
+    .content {
+      text-align: justify;
+      padding: 25px;
+     
+      span {
+        font-size: 18px;
+        font-weight: 500;
+      }
+    }
+  }
+  .bottom{
+    .icon{
+        display: flex;
+        gap: 55px;
+        color: #116056;
+        cursor: pointer;
+
+      
+    }
+  }
+}
