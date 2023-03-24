@@ -38,4 +38,17 @@
         }
     }
 }
+@media (max-width : 328px){
+    .featuredProducts{
+        .top{
+            gap: 10px;
+            flex-direction: column;
+        }
+        .bottom{
+            grid-template-columns: auto ;
+            gap: 10px;
+          
+        }
+    }
+}
 

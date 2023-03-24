@@ -56,3 +56,15 @@
        } 
     }
 }
+
+@media (max-width : 328px){
+    .top {
+       grid-template-columns: auto ;
+    }
+    .bottom{
+        flex-direction: column;
+       .right{
+        width: 200px;
+       } 
+    }
+}
