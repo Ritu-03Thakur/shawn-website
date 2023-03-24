@@ -1,11 +1,15 @@
 .featuredProducts{
-    margin: 100px 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 30px;
+  
 
     .top{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin-bottom: 50px;
+      
         h1{
             flex: 2;
         }
@@ -15,8 +19,23 @@
         }
     }
     .bottom{
-        display: flex;
-        justify-content: center;
-        gap: 50px;
+       display: grid;
+       grid-template-columns: auto auto auto auto;
+       
     }
 }
+
+@media (max-width : 768px){
+    .featuredProducts{
+        .top{
+            gap: 10px;
+            flex-direction: column;
+        }
+        .bottom{
+            grid-template-columns: auto auto;
+            gap: 10px;
+          
+        }
+    }
+}
+

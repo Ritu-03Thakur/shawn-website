@@ -10,20 +10,20 @@ export default function Slider(){
 <Swiper navigation = {true} modules = {[Navigation]} className = ".slider">
   <div className="container">
 
-    <SwiperSlide > 
-    <img src="/img/home3.jpeg" alt="" className="fix" />
+    <SwiperSlide className="fix"> 
+    <img src="/img/home3.jpeg" alt=""  />
     </SwiperSlide>
 
-    <SwiperSlide>
-    <img src="/img/shoes3.jpeg" alt="" className="fix"/>
+    <SwiperSlide className="fix">
+    <img src="/img/shoes3.jpeg" alt="" />
     </SwiperSlide>
 
-    <SwiperSlide>
-    <img src="/img/hoodie2.jpeg" alt="" className="fix"/>
+    <SwiperSlide className="fix">
+    <img src="/img/hoodie2.jpeg" alt="" />
     </SwiperSlide>
 
-    <SwiperSlide>
-    <img src="/img/bag3.jpeg" alt="" className="fix"/>
+    <SwiperSlide className="fix">
+    <img src="/img/bag3.jpeg" alt="" />
     </SwiperSlide>
   </div>
 </Swiper>

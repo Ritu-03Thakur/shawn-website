@@ -6,7 +6,7 @@
 .swiper-slide{
     text-align: center;
     font-size: 18px;
-  //  background: #fff;
+  
 
     display: -webkit-box;
     display: -ms-flexbox;
@@ -26,9 +26,33 @@
     display: flex;
    align-items: center;
    justify-content: center;
-}
+
 .fix{
-     height: 85vh;
-    width: 65vw;
-   position: absolute;
+    
+    position: absolute;
+    object-fit: cover;
+  
+    img{
+        height: 300px;
+        width: 365px;
+
+   }
+}
+}
+$breakpoint-tablet : 768px ; 
+@media (max-width : $breakpoint-tablet){
+  
+    .container{
+    .fix{
+   
+        img{
+            height: 200px;
+            width: 265px;
+    
+       }
+    }
+    }
+           
+              
+    
 }
