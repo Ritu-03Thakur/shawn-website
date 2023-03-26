@@ -1,99 +1,52 @@
 .navbar {
-  height: 75px;
+  height: 70px;
   background-color: #e0e1d1;
- position: sticky;
- top: 0;
- z-index: 20;
- 
+  position: sticky;
+  top: 0;
+  z-index: 20;
 
   .wrapper {
-    padding: 10px 30px;
-    display: flex;
-    justify-content: space-between;
+    padding: 5px;
     align-items: center;
-    width: 100%;
+    justify-content: space-between;
+    display: flex;
+   
+   
+  
+    .item-logo{
+      img{
 
-    .item {
-      display: flex;
-      align-items: center;
-      font-size: 18px;
-    }
-    .left {
-      display: flex;
-      align-items: center;
-      gap: 25px;
-      .logo {
-        height: 28px;
-        width: 28px;
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
       }
     }
-    .center {
-      font-size: 30px;
-      letter-spacing: 2;
-    }
-   
-    .right {
+
+    .icons {
       display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 25px;
+      gap: 15px;
+      color: #03685b;
+      cursor: pointer;
 
+      .cardIcon {
+        position: relative;
 
-      .icons {
-        display: flex;
-        gap: 15px;
-        color: #03685b;
-        cursor: pointer;
-
-        .cardIcon {
-          position: relative;
-
-          span {
-            font-size: 12px;
-            width: 20px;
-            height: 20px;
-            border-radius: 50%;
-            background-color: #03685b;
-            color: rgb(247, 243, 240);
-            position: absolute;
-            right: -10px;
-            top: -10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-          }
+        span {
+          font-size: 12px;
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          background-color: #03685b;
+          color: rgb(247, 243, 240);
+          position: absolute;
+          right: -10px;
+          top: -10px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
         }
       }
     }
-    .nav-icon{
-      display: none;
-    }
   }
 }
 
-@media  (max-width: 768px) {
-  .wrapper{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    position: absolute;
-    top: 80px;
-    left: -110%;
-    opacity: 1;
-    transition: all 0.5s ease;
-  }
-  .wrapper .show-menu {
-    background-color: #e0e1d1;
-    left: 0px;
-    opacity: 1;
-    transition: all 0.5s ease;
-    z-index: 1;
-  }
-  .nav-icon{
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100% , 60%); 
-  }
-}

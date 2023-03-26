@@ -1,6 +1,6 @@
 import Categories from "../../components/Categories/Categories";
 import FeaturedProducts from "../../components/FeaturedProducts/FeaturedProducts";
-// import Slider from "../../components/Slider/Slider";
+ // import Slider from "../../components/Slider/Slider";
 import Contact from "../../components/Contact/Contact";
 import "./Home.scss" ; 
 export default function Home(){

@@ -13,8 +13,7 @@ const Contact = () => {
         <div className="content">
           <span>Mail Us :</span>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque
-            officiis at soluta voluptas modi. Doloribus ex officiis repellat
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.repellat
             autem consequatur, minima quas sequi tempora iste.
           </p>
         </div>
@@ -22,15 +21,14 @@ const Contact = () => {
         <div className="content">
           <span>Registered Office Address : </span>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque
-            officiis at soluta voluptas modi. Doloribus ex officiis repellat
+            Lorem, ipsum dolor sit amet consectetur adipisicing iis repellat
             autem consequatur, minima quas sequi tempora iste.
           </p>
         </div>
       </div>
       < div className="bottom">
        
-          <h4>Keep in Touch</h4>
+          <span>Keep in Touch</span>
           <div className="icon">
             <InstagramIcon />
             <YouTubeIcon />
